@@ -1,0 +1,80 @@
+@import "contacto";
+@import "productos";
+@import "faq";
+@import "footer";
+
+
+
+main {
+	background-image: url("../media/fondo1.png"); 
+	background-repeat: repeat;
+}	
+.bg-Blue{
+	background-color: #2874A6;
+}
+#siteHeader{
+	font-family: sans-serif;
+	font-weight: 900;
+
+}
+
+#siteHeader .miLogo{
+	background: url("../media/logo.jpg") no-repeat;
+	display: block;
+	width: 65px;
+	height: 65px;
+}
+#banner{
+	padding: 0px 0px;
+	position: relative;
+	height: 300px;
+	width: 33vh;
+}
+#mainTitle{
+	font-size: 3rem;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+}
+.marginTitle{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+div p{
+	margin-left: 50px;
+	font-size: 1.5rem;
+	font-family: 'Noto Serif TC', serif;
+	text-align: justify;
+	line-height: 1.6em;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background-color: rgb(174, 214, 241);
+	
+	animation-duration: 1s;
+	animation-name: aparecer;
+	}@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+	}
+	}
+
+img{	
+	animation-duration: 1s;
+	animation-name: aparecer;
+	}@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+	}
+	}
+
+.marginAuto{
+	margin-left: auto;
+	margin-right: auto;
+	}
+
